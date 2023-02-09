@@ -1,0 +1,166 @@
+[
+  {
+    "id": "F6Wyy",
+    "name": "David Elias",
+    "phone": "0506666666",
+    "lastCalls": [
+      {
+        "id": "UgIwi",
+        "type": "messenger",
+        "phone": "",
+        "name": "Asaf Hadad",
+        "startedAt": "1674141180000",
+        "lastCommunication": [
+          { "isClient": true, "txt": "Dude" },
+          { "isClient": false, "txt": "Hey!" },
+          { "isClient": false, "txt": "You there?" },
+          { "isClient": false, "txt": "Hello, how's it going?" },
+          { "isClient": true, "txt": "Great thanks!" },
+          { "isClient": true, "txt": "How about you?" }
+        ]
+      },
+      {
+        "id": "IVIn7",
+        "type": "telegram",
+        "phone": "0505050505",
+        "startedAt": "1674144240000",
+        "lastCommunication": [
+          { "isClient": true, "txt": "Dude" },
+          { "isClient": false, "txt": "Hey!" },
+          { "isClient": false, "txt": "You there?" },
+          { "isClient": false, "txt": "Hello, how's it going?" },
+          { "isClient": true, "txt": "Great thanks!" },
+          { "isClient": true, "txt": "How about you?" }
+        ]
+      },
+      {
+        "id": "Lec6R",
+        "type": "phone",
+        "phone": "0542424242",
+        "name": "Shira Asulin",
+        "gender": "female",
+        "startedAt": "1674159360000",
+        "duration": 12
+      },
+      {
+        "id": "vGmme",
+        "type": "whatsapp",
+        "phone": "",
+        "name": "Efrat Feldman",
+        "startedAt": "1674283260000",
+        "lastCommunication": [
+          { "isClient": true, "txt": "Dude" },
+          { "isClient": false, "txt": "Hey!" },
+          { "isClient": false, "txt": "You there?" },
+          { "isClient": false, "txt": "Hello, how's it going?" },
+          { "isClient": true, "txt": "Great thanks!" },
+          { "isClient": true, "txt": "How about you?" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Btdf3",
+    "name": "Rachel Zimerman",
+    "phone": "0503333333",
+    "lastCalls": [
+      {
+        "id": "gIMQA",
+        "type": "phone",
+        "phone": "0509191919",
+        "startedAt": "1675087320000",
+        "duration": 5
+      },
+      {
+        "id": "yX9pV",
+        "type": "phone",
+        "phone": "0502323232",
+        "name": "Yehuda Margalit",
+        "gender": "male",
+        "startedAt": "1675098660000",
+        "duration": 3634
+      },
+      {
+        "id": "bvGjx",
+        "type": "messenger",
+        "phone": "0507474747",
+        "startedAt": "1675184580000",
+        "lastCommunication": [
+          { "isClient": true, "txt": "Dude" },
+          { "isClient": false, "txt": "Hey!" },
+          { "isClient": false, "txt": "You there?" },
+          { "isClient": false, "txt": "Hello, how's it going?" },
+          { "isClient": true, "txt": "Great thanks!" },
+          { "isClient": true, "txt": "How about you?" }
+        ]
+      },
+      {
+        "id": "992j4",
+        "type": "telegram",
+        "phone": "0506363636",
+        "startedAt": "1675276740000",
+        "lastCommunication": [
+          { "isClient": true, "txt": "Dude" },
+          { "isClient": false, "txt": "Hey!" },
+          { "isClient": false, "txt": "You there?" },
+          { "isClient": false, "txt": "Hello, how's it going?" },
+          { "isClient": true, "txt": "Great thanks!" },
+          { "isClient": true, "txt": "How about you?" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "7zylY",
+    "name": "Miryam Cohen",
+    "phone": "0508888888",
+    "lastCalls": [
+      {
+        "id": "MCWSm",
+        "type": "telegram",
+        "phone": "",
+        "name": "Yael Amar",
+        "startedAt": "1675246320000",
+        "lastCommunication": [
+          { "isClient": true, "txt": "Dude" },
+          { "isClient": false, "txt": "Hey!" },
+          { "isClient": false, "txt": "You there?" },
+          { "isClient": false, "txt": "Hello, how's it going?" },
+          { "isClient": true, "txt": "Great thanks!" },
+          { "isClient": true, "txt": "How about you?" }
+        ]
+      },
+      {
+        "id": "sV3CT",
+        "type": "phone",
+        "phone": "0509393939",
+        "name": "Ester Carp",
+        "gender": "female",
+        "startedAt": "1675252320000",
+        "duration": 91
+      },
+      {
+        "id": "eInFo",
+        "type": "messenger",
+        "phone": "",
+        "name": "Eitan Rubin",
+        "startedAt": "1675409100000",
+        "lastCommunication": [
+          { "isClient": true, "txt": "Dude" },
+          { "isClient": false, "txt": "Hey!" },
+          { "isClient": false, "txt": "You there?" },
+          { "isClient": false, "txt": "Hello, how's it going?" },
+          { "isClient": true, "txt": "Great thanks!" },
+          { "isClient": true, "txt": "How about you?" }
+        ]
+      },
+      {
+        "id": "OLbnl",
+        "type": "phone",
+        "phone": "0509494949",
+        "startedAt": "1675674180000",
+        "duration": 0
+      }
+    ]
+  }
+]

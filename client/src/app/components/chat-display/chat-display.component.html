@@ -1,0 +1,6 @@
+<section class="chat-display">
+  <div *ngFor="let msg of communication"
+    class="msg"
+    [ngClass]="type + (msg.isClient ? ' client' : ' addressee')"
+    [class.last]="msg.last">{{msg.txt}}</div>
+</section>

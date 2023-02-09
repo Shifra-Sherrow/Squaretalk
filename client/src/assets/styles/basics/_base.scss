@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: 'montserrat-regular', 'system-ui';
+  font-size: 16px;
+  color: var(--veryDarkGray);
+}
+
+input:focus,
+select:focus,
+button:focus {
+  border: none;
+  outline: none;
+}
+
+button,
+label,
+input,
+select,
+option {
+  cursor: pointer;
+}
+
+button {
+  font-family: 'montserrat-regular', 'system-ui';
+  font-size: 1rem;
+  color: var(--veryDarkGray);
+  border: none;
+  outline: none;
+}
+
+input {
+  font-family: 'montserrat-regular', 'system-ui';
+  color: var(--veryDarkGray);
+}
+
+a {
+  text-decoration: none;
+}

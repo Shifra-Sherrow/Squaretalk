@@ -1,0 +1,19 @@
+<section class="phone-display">
+  <div class="phone-display-inner">
+    <div class="details">
+      <div class="avatar">
+        <svg-icon [key]="call.gender || 'male'"></svg-icon>
+      </div>
+  
+      <div class="bold">{{call.name || (call.phone | phone)}}</div>
+      <div *ngIf="call.name"
+        class="small">{{(call.phone | phone)}}</div>
+    </div>
+  
+    <div class="call-info">
+      <div>{{call.startedAt | date: 'dd/MM/yyyy'}}</div>
+      <div class="bold">{{call.startedAt | date: 'HH:mm'}}</div>
+      <div class="small">{{call.duration | duration}}</div>
+    </div>
+  </div>
+</section>

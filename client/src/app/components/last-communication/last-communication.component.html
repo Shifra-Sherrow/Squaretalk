@@ -1,0 +1,10 @@
+<section class="last-communication">
+  <ng-container [ngSwitch]="currCall.type">
+    <chat-display *switchCases="[callTypeEnum.WHATSAPP, callTypeEnum.MESSENGER, callTypeEnum.TELEGRAM]"
+      [type]="currCall.type"
+      [communication]="currCall.lastCommunication"></chat-display>
+    
+    <phone-display *ngSwitchCase="callTypeEnum.PHONE"
+      [call]="currCall"></phone-display>
+  </ng-container>
+</section>

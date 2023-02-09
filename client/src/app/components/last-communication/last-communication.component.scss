@@ -1,0 +1,45 @@
+.last-communication {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 3rem 3rem 0;
+
+  .chat-display, .phone-display {
+    position: relative;
+    width: 24rem;
+    height: 17.5rem;
+    padding: 1rem 2.5rem;
+    margin-inline-start: auto;
+    background-color: var(--white);
+    border: 1px solid var(--black);
+    border-radius: 65px;
+
+    &:before {
+      content: "";
+      position: absolute;
+      z-index: 0;
+      right: -15px;
+      bottom: -3px;
+      width: 40px;
+      height: 40px;
+      background: var(--white);
+      border-bottom: 1px solid var(--black);
+      border-bottom-left-radius: 30px;
+    }
+  
+    &:after {
+      content: "";
+      position: absolute;
+      z-index: 1;
+      right: -25px;
+      bottom: 0;
+      width: 32px;
+      height: 40px;
+      background: var(--white);
+      border-left: 1px solid var(--black);
+      border-bottom: 1px solid var(--black);
+      border-bottom-left-radius: 37px;
+      transform: rotate(11deg);
+    }
+  }
+}

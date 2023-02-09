@@ -1,0 +1,108 @@
+.chat-display {
+  .msg {
+    width: fit-content;
+    margin: 5px;
+    padding: 8px 15px;
+    border-radius: 20px;
+  }
+  
+  .addressee.msg {
+    margin-right: 25%;
+    background: var(--lightGray);
+    position: relative;
+  }
+  
+  .addressee.msg.last:before {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+    left: -7px;
+    height: 20px;
+    width: 20px;
+    background: var(--lightGray);
+    border-bottom-right-radius: 15px;
+  }
+
+  .addressee.msg.last:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    left: -10px;
+    width: 10px;
+    height: 20px;
+    background-color: var(--white);
+    border-bottom-right-radius: 10px;
+  }
+  
+  .client.msg {
+    margin-left: 25%;
+    position: relative;
+    margin-inline-start: auto;
+    color: var(--black);
+  }
+  
+  .client.msg.last:before {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+    right: -8px;
+    height: 20px;
+    width: 20px;
+    border-bottom-left-radius: 15px;
+  }
+  
+  .client.msg.last:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    right: -10px;
+    width: 10px;
+    height: 20px;
+    background-color: var(--white);
+    border-bottom-left-radius: 10px;
+  }
+
+  .phone {
+    &.client.msg {
+      background: var(--lightGreen);
+      
+      &.last:before {
+        background: var(--lightGreen);
+      }
+    }
+  }
+
+  .whatsapp {
+    &.client.msg {
+      background: var(--darkGreen);
+      
+      &.last:before {
+        background: var(--darkGreen);
+      }
+    }
+  }
+
+  .messenger {
+    &.client.msg {
+      background: var(--purple);
+      
+      &.last:before {
+        background: var(--purple);
+      }
+    }
+  }
+
+  .telegram {
+    &.client.msg {
+      background: var(--azure);
+      
+      &.last:before {
+        background: var(--azure);
+      }
+    }
+  }
+}

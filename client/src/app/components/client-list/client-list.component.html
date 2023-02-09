@@ -1,0 +1,9 @@
+<section class="client-list">
+  <div *ngFor="let client of clients"
+    class="client"
+    [class.selected]="client.selected"
+    (click)="selectClient(client.id)">
+    <span class="name">{{client.name}}</span>
+    <span>{{client.phone | phone}}</span>
+  </div>
+</section>

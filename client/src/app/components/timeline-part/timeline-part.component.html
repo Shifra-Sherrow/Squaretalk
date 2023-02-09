@@ -1,0 +1,21 @@
+<section class="timeline-part"
+  (click)="selectCall.emit(call.id)"
+  (mouseover)="changeStyle($event)"
+  (mouseout)="changeStyle($event)">
+  <div class="icon">
+    <div class="circle"
+      [style.background-color]="getBgc(call.type)"></div>
+
+    <svg-icon [key]="call.type"></svg-icon>
+  </div>
+
+  <div class="line-point">
+    <div class="line"></div>
+
+    <div class="point"
+      [style]="{ backgroundColor: call.id === selectedCall.id ? getBgc(call.type) : hoverColor }"></div>
+  </div>
+
+  <div class="name-phone">{{call.name || (call.phone | phone)}}</div>
+  <div class="started-at">{{call.startedAt | date: 'd.M HH:mm'}}</div>
+</section>

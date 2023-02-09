@@ -1,0 +1,6 @@
+<section class="timeline">
+  <timeline-part *ngFor="let call of calls"
+    [call]="call"
+    [selectedCall]="currCall"
+    (selectCall)="selectCall.emit($event)"></timeline-part>
+</section>

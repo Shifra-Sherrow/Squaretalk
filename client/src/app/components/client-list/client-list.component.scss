@@ -1,0 +1,27 @@
+.client-list {
+  background-color: var(--lavender);
+
+  .client {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 4.5rem;
+    padding-inline-start: 1rem;
+    color: var(--black);
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+
+    .name {
+      font-weight: 600;
+      line-height: 1.5;
+    }
+
+    span:not(.name) {
+      font-size: 0.9rem;
+    }
+
+    &.selected, &:hover {
+      background-color: var(--lightLavender);
+    }
+  }
+}

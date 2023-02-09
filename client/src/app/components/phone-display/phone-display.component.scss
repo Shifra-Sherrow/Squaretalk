@@ -1,0 +1,45 @@
+.phone-display {
+  .phone-display-inner {
+    display: flex;
+    align-items: center;
+    height: calc(100% - 4rem);
+    margin: 2rem 0.5rem;
+    padding: 2rem;
+    color: var(--black);
+    border: 1px solid var(--black);
+    border-radius: 32px;
+
+    .bold {
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+
+    .small {
+      font-size: 0.8rem;
+    }
+
+    .avatar {
+      display: grid;
+      place-items: center;
+      width: 4rem;
+      height: 4rem;
+      margin-block-end: 0.5rem;
+      border-radius: 50%;
+      background-color: var(--lightGreen);
+      
+      > svg-icon {
+        width: 70%;
+        height: 70%;
+  
+        path {
+          stroke: var(--lightGreen);
+        }
+      }
+    }
+
+    .call-info {
+      margin-inline-start: auto;
+      text-align: end;
+    }
+  }
+}

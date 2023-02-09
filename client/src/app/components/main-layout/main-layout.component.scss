@@ -1,0 +1,21 @@
+.main-layout {
+  display: grid;
+  grid-template-rows: 7vh auto;
+  grid-template-columns: fit-content(5rem) 15rem auto;
+  width: 100vw;
+  height: 100vh;
+
+  top-panel {
+    grid-column: 1 / -1;
+  }
+
+  .side-panel, .client-list {
+    height: 100%;
+    padding-block-start: 15vh;
+  }
+
+  main, .client-communication, .timeline, .last-communication {
+    height: 93vh;
+  }
+
+}

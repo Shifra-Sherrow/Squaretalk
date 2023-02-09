@@ -1,0 +1,42 @@
+.top-panel {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  background-color: var(--turquoise);
+
+  svg-icon {
+    height: 100%;
+    width: 3rem;
+    margin-inline: 1rem auto;
+    cursor: pointer;
+
+    path {
+      fill: var(--white);
+    }
+  }
+
+  button {
+    position: relative;
+    height: 60%;
+    margin-inline-end: 1.5rem;
+    padding-inline: 1.5rem;
+    color: var(--turquoise);
+    background-color: var(--white);
+    transition: 0.4s ease-in-out;
+    
+    &::after {
+      content: "";
+      position: absolute;
+      width: 3px;
+      height: 100%;
+      top: 0;
+      right: -6px;
+      background-color: var(--white);
+      transition: 0.4s ease-in-out;
+    }
+
+    &:hover::after {
+      background-color: transparent;
+    }
+  }
+}

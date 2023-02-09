@@ -1,0 +1,16 @@
+<section class="side-panel"
+  [class.narrow]="!isOpenMode">
+  <div class="toggle-mode-btn"
+    [class.rotate]="!isOpenMode"
+    (click)="isOpenMode = !isOpenMode">
+    <svg-icon key="arrowDown"></svg-icon>
+  </div>
+
+  <button *ngFor="let tab of tabs"
+    [class.selected]="tab.value === selectedTab.value">
+    <svg-icon [key]="tab.icon"></svg-icon>
+
+    <span *ngIf="isOpenMode"
+      [@delayFadeInOut]>{{tab.value}}</span>
+  </button>
+</section>

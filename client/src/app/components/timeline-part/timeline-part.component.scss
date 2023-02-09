@@ -1,0 +1,61 @@
+.timeline-part {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 12rem;
+  text-align: center;
+  color: var(--black);
+  cursor: pointer;
+
+  .icon {
+    position: relative;
+    margin-inline: auto;
+
+    .circle {
+      width: 4rem;
+      height: 4rem;
+      border-radius: 50%;
+    }
+    
+    > svg-icon {
+      position: absolute;
+      right: -0.4rem;
+      bottom: -0.4rem;
+      width: 3.5rem;
+      height: 3.5rem;
+    }
+  }
+
+  .line-point {
+    position: relative;
+    margin-block-start: 3rem;
+
+    .line {
+      width: 100%;
+      height: 2px;
+      background-color: var(--black);
+    }
+
+    .point {
+      position: absolute;
+      right: calc(50% - 0.45rem);
+      bottom: -0.45rem;
+      width: 0.9rem;
+      height: 0.9rem;
+      background-color: var(--white);
+      border: 1px solid var(--black);
+      border-radius: 50%;
+      transition: 0.4s ease-in-out;
+    }
+  }
+
+  .name-phone {
+    margin-block-start: 2rem;
+    font-weight: bold;
+  }
+  
+  .started-at {
+    font-size: 0.9rem;
+    line-height: 2;
+  }
+}

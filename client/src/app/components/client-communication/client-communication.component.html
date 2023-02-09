@@ -1,0 +1,7 @@
+<section class="client-communication">
+  <timeline [calls]="client.lastCalls"
+    [currCall]="currCall"
+    (selectCall)="selectCall($event)"></timeline>
+    
+  <last-communication [currCall]="currCall"></last-communication>
+</section>
